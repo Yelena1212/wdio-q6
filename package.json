@@ -2,7 +2,9 @@
   "name": "wdio-q6",
   "version": "1.0.0",
   "main": "register.spec.js",
-  "dependencies": {},
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
   "devDependencies": {
     "@wdio/cli": "^6.1.15",
     "@wdio/local-runner": "^6.1.14",
