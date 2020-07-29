@@ -28,16 +28,16 @@ describe ('Test Progress Monitor first page', ()=> {
 
     });
 
-
-     describe('verify Register Text', () => {
-
-        it('should check Register button and go to the register page', () => {
-            browser.url('https://app.pasv.us');
-            const element2 = $('[qa="register-link"]');
-            element2.click();
-            browser.pause(3000);
-
-        });
+     //
+     // describe('verify Register Text', () => {
+     //
+     //    it('should check Register button and go to the register page', () => {
+     //        browser.url('https://app.pasv.us');
+     //        const element2 = $('[qa="register-link"]');
+     //        element2.click();
+     //        browser.pause(3000);
+     //
+     //    });
      //
      //    it('should check Register page title', () => {
      //        const elementText2 = $('//h1').getText();
